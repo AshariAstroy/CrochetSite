@@ -1,0 +1,39 @@
+{
+    "homeNav" : "Over",
+    "galleryNav" : "Galerij",
+    "contactNav" : "Contact",
+    "lang-en": "Engels",
+    "lang-nl": "Nederlands",
+
+    "_comment2": "Home Banner",
+    "greetings-1": "Welkom bij Star Dragon Crochet!",
+    "undertitle": "Handgemaakte creaties, met liefde gemaakt!",
+
+    "_comment3": "Home",
+    "greetings-2": "Hallo! Mijn naam is Kristina ",
+    "list-item-1": "Welkom op mijn website! Deze ruimte is toegewijd aan mijn haakhobby, waar ik mijn handgemaakte creaties deel.",
+    "list-item-2": "Neem gerust een kijkje in de galerij als u mijn werk wilt bekijken.",
+    "list-item-3": "Elk stuk wordt met zorg en aandacht voor detail gemaakt, en ik experimenteer graag met verschillende patronen, ideeën, kleuren en garens.",
+    "list-item-4": "Deze hobby stelt me in staat om te ontspannen en wat vreugde in mijn dagelijks leven te brengen.",
+    "list-item-5": "Mocht u vragen hebben of u wilt contact opnemen, ga dan gerust naar de contactpagina.",
+
+    "_comment4": "Contact",
+    "contact-title": "Neem contact met mij op :)",
+    "contact-subtitle": "Vond je mijn werk mooi? Zou je iets willen bestellen? Neem gerust contact met me op via onderstaande opties en volg me op Instagram voor meer updates:",
+
+    "_comment5": "Contact Form",
+    "contact-form-text": "Je kunt ook direct een formulier invullen! Beschrijf wat je wilt dat ik maak!",
+    "contact-form-1": "Volledige Naam",
+    "contact-form-2": "E-mail",
+    "contact-form-3": "Bericht",
+    "contact-send": "Bericht verzenden",
+    "contact-img" : "Contactafbeelding",
+
+    "_comment6": "Contact form errors",
+    "contact-error-1": "Volledige naam verplicht",
+    "contact-error-2": "E-mail verplicht",
+    "contact-error-3": "Bericht verplicht",
+    "contact-error-4": "Bevestig alstublieft dat u een mens bent!",
+    "contact-error-5": "Er is iets misgegaan, probeer het later opnieuw.",
+    "contact-success-1": "Bericht succesvol verzonden!"
+}

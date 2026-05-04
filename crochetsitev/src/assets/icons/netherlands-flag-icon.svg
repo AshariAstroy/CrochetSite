@@ -1,0 +1,10 @@
+<svg width="513" height="357.071" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m0.32,239.036l512.36,0l0,89.555c0,15.488 -12.671,28.16 -28.159,28.16l-456.044,0c-15.486,0 -28.157,-12.672 -28.157,-28.16l0,-89.555z" fill-rule="nonzero" fill="#21468B"/>
+  <path id="svg_2" d="m512.68,239.036l-512.36,0l0,-210.556c0,-15.488 12.671,-28.16 28.157,-28.16l456.044,0c15.488,0 28.159,12.672 28.159,28.16l0,210.556z" fill-rule="nonzero" fill="#fff"/>
+  <path id="svg_3" d="m512.68,118.035l-512.36,0l0,-89.555c0,-15.488 12.671,-28.16 28.157,-28.16l456.044,0c15.488,0 28.159,12.672 28.159,28.16l0,89.555z" fill-rule="nonzero" fill="#AE1C28"/>
+  <rect id="svg_4" ry="28.159" rx="27.231" height="356.43" width="512.359" y="0.319" x="0.32" stroke-miterlimit="22.926" stroke-width="0.64" stroke="#CCC" fill="none"/>
+ </g>
+</svg>

@@ -1,0 +1,166 @@
+.section1 {
+  margin: 5rem 0 3rem 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto minmax(0, 800px);
+  grid-template-rows: 1fr;
+  gap: 60px;
+}
+
+.description-box {
+  background-color: #ffffffda;
+  border-radius: 20px;
+  padding: 25px 30px;
+}
+
+.section1 img {
+  height: 678px;
+  border-radius: 10px;
+}
+
+
+.description-box h2 {
+  font-family: Aloja;
+  font-size: 44px;
+  text-align: center;
+}
+
+.about-me {
+  font-family: Roca-two;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: justify;
+  list-style: none;
+  padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.description-box li:nth-child(n+2) {
+  margin-top: 15px;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2.5rem 0 1rem 0;
+}
+
+.home-button {
+  font-family: Aloja;
+  font-size: 34px;
+  font-weight: 800;
+  color: black;
+  background-color: #CEE5C7;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: .5 ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+.home-button:hover {
+  color: #ba44c5;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1600px) {
+  .section1 {
+    grid-template-columns: auto 600px;
+  }
+
+  .section1 img {
+    height: 600px;
+  }
+
+  .description-box h2 {
+    font-size: 40px;
+  }
+
+  .about-me {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .section1 {
+    grid-template-columns: auto 525px;
+    gap: 30px;
+  }
+
+  .section1 img {
+    height: 528px;
+  }
+
+  .description-box {
+    padding: 20px 25px;
+  }
+
+  .description-box h2 {
+    font-size: 36px;
+  }
+
+  .about-me {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .home-button {
+    font-size: 28px;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .section1 {
+    grid-template-columns: .95fr;
+    padding: 0 20px;
+    margin: 2.5rem 0 2rem 0;
+  }
+
+  .section1 img {
+    order: 2;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 50% 30%;
+  }
+
+  .description-box {
+    order: 1;
+    padding: 10px 30px;
+  }
+
+  .description-box h2 {
+    font-size: 32px;
+  }
+
+  .about-me {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me {
+    width: auto;
+  }
+
+  .button-box {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .home-button {
+    width: 70%;
+    font-size: 26px;
+  }
+}

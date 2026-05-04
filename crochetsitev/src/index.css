@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Aloja;
+  src: url(./assets/fonts/Aloja-Extended.woff);
+}
+
+@font-face {
+  font-family: Roca-two;
+  src: url(./assets/fonts/Roca_Two_Bold.ttf);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  filter: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+img:hover {
+  filter: none;
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent !important;
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+/* Scroll-up button */
+.btn-visible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 3rem;
+  z-index: 9999;
+  cursor: pointer;
+
+  padding: 0;
+  border: none;
+  background: #F9E6F1;
+  border-radius: 30px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.btn-visible:hover {
+  transform: scale(1.1);
+}
+
+.scroll-up {
+  font-size: 60px;
+}
+
+.scroll-up:hover {
+  color: #93319c;
+}
+
+.btn-hidden {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .scroll-up {
+    font-size: 54px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .btn-visible {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .scroll-up {
+    font-size: 48px;
+  }
+}
+
+/* ------------------------ */
+/* Language button */
+.language-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+
+  transition: all 0.25s ease;
+}
+
+.language-switcher.open .dropdown {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+@media (max-width: 900px) {
+
+  .language-switcher {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+  }
+
+  .language-inline {
+    position: static;
+    pointer-events: auto;
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .current-flag {
+    display: flex;
+  }
+}

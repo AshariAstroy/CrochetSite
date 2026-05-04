@@ -1,0 +1,40 @@
+{   
+    "_comment1": "NavBar",
+    "homeNav" : "About",
+    "galleryNav" : "Gallery",
+    "contactNav" : "Contact",
+    "lang-en": "English",
+    "lang-nl": "Dutch",
+
+    "_comment2": "Home Banner",
+    "greetings-1": "Welcome to Star Dragon Crochet!",
+    "undertitle": "Handmade creations with love!",
+
+    "_comment3": "Home",
+    "greetings-2": "Hi! My name is Kristina ",
+    "list-item-1": "Welcome to my website! This space is dedicated to my crocheting hobby, where I share my handmade creations.",
+    "list-item-2": "Feel free to explore the gallery if you’d like to see my work.",
+    "list-item-3": "Each piece is made with care and attention to detail, and I enjoy experimenting with different patterns, ideas, colors and yarn.",
+    "list-item-4": "This hobby allows me to relax and bring a bit of joy into my everyday life.",
+    "list-item-5": "If you have any questions or would like to get in touch, feel free to visit the contact page.",
+
+    "_comment4": "Contact",
+    "contact-title": "Contact me :)",
+    "contact-subtitle": "Did you like what I make? Would you like to order something? Feel free to reach me via the following options and to follow my Instagram for more updates:",
+
+    "_comment5": "Contact Form",
+    "contact-form-text": "You can also submit a direct form! Describe what you would like me to make!",
+    "contact-form-1": "Full Name",
+    "contact-form-2": "Email",
+    "contact-form-3": "Message",
+    "contact-send": "Send message",
+    "contact-img" : "Contact image",
+
+    "_comment6": "Contact form errors",
+    "contact-error-1": "Full Name required",
+    "contact-error-2": "Email required",
+    "contact-error-3": "Message required",
+    "contact-error-4": "Please verify you are human!",
+    "contact-error-5": "Something went wrong, please try again later.",
+    "contact-success-1": "Message sent successfully!"
+}

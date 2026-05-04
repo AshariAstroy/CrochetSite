@@ -1,0 +1,13 @@
+.header {
+  background: #CEE5C7;
+  background-image: url(../../../public/img/header.webp);
+  background-size: 620px;
+  background-position-y: center;
+}
+
+.header-wrap {
+  position: relative;
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  padding-bottom: 2px;
+  margin-bottom: 30px;
+}

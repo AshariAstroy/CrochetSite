@@ -1,0 +1,84 @@
+html, body {
+  background-color: #F9E6F1;
+  background-image: url(../public/img/background.webp);
+  background-repeat: repeat;
+  background-size: 500px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.easter-egg h2 {
+  margin: 0;
+  cursor: text;
+}
+
+/* Popup container */
+#statusPopup {
+  position: fixed;
+  top: 150px; /* adjust distance from top (under header) */
+  left: 50%;  /* center horizontally */
+  transform: translateX(-50%); /* truly center */
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Popup message box */
+.status-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #77c386;
+  color: black;
+  font-size: 24px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Variants */
+.status-message.success {
+  border-color: var(--green, #4caf50);
+}
+
+.status-message.danger {
+  border-color: var(--red, #f44336);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}
+
+/************ BREACKPOINTS ************/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
